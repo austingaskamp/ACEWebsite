@@ -6,15 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/CustomElements.css">
   <title>Home</title>
+  <link rel="stylesheet" href="css/CustomElements.css">
 </head>
-<body>
+<body class = "background-4">
 <div class="container-xl">
 
   <!---All Navigation bar code--->
-  <nav class = "navbar navbar-expand-sm" style = "color: #34495E">
+  <nav class = "navbar navbar-expand-sm navbar-light" style = "color: #34495E">
 
+    <!---
     <a class = "navbar-brand text-reset text-left" href = "index.html">Aggie Club of Engineers</a>
+    --->
 
     <button class = "navbar-toggler" type="button" data-toggle = "collapse" data-target="#myTogglerNav"
     aria-controls = "myTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,10 +28,10 @@
     </button>
 
     <!---Section that allows to convert navigation into hamburger menu--->
-    <div class = "collapse navbar-collapse" id = "myTogglerNav">
+    <div class = "collapse navbar-collapse justify-content-center" id = "myTogglerNav">
 
       <!---Section That controls the navigation bar--->
-      <div class = "navbar-nav ml-sm-auto">
+      <div class = "navbar-nav font-weight-bold">
 
         <a class = "nav-item nav-link text-dark active" href = "index.html">Home</a>
         <a class = "nav-item nav-link text-dark active" href = "About.html">About Us</a>
@@ -56,18 +60,22 @@
   </nav>
 
   <!---Aggie Club of Engineers title--->
-  <div class = "row p-2 text-center" style = "background-color: #34495E">
-    <div class = "col">
+  <div class = "row p-2 text-center align-middle" style = "background-color: rgb(52, 73, 94, .8)">
+
+    <div class = "col text-light">
       <div class = "jumbotron-fluid">
 
-      <img class = "img-fluid" src="img/ACELogoWhite.png" height="84" width="83"/>
+        <h1>Aggie Club of Engineers</h1>
 
+        <img class = "img-fluid" src="img/ACELogoWhite.png" height="84" width="83"/>
+
+      </div>
     </div>
-   </div>
+
   </div>
 
   <!---Photo Carousel--->
-  <div class = "row text-center" style = "background-color: #D6DBDF">
+  <div class = "row text-center" style = "background-color: rgb(214, 219, 223, .8)">
    <div class = "col">
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -117,7 +125,7 @@
 
   <!---Who are we? Section--->
   <!---Who are we? title--->
-  <div class = "row p-2" style = "background-color: #34495E">
+  <div class = "row p-2" style = "background-color: rgb(52, 73, 94, .8)">
 
     <div class = "col text-center text-light">
 
@@ -130,9 +138,9 @@
   </div>
 
   <!---Who are we? content--->
-  <div class = "row row-cols-1" style="background-color: #D6DBDF; color: #34495E">
+  <div class = "row row-cols-3" style="background-color: rgb(214, 219, 223, .8); color: #34495E">
 
-    <div class = "col p-3 text-center">
+    <div class = "col-8 p-3 text-center">
         <h5>
           Aggie Club of Engineers is a social, service, and leadership organization strongly rooted in academics.
           ACE is based on the premise that bringing together student leaders from all levels and disciplines of
@@ -147,7 +155,7 @@
 
   <!---Pillars Section--->
   <!---Pillars Title--->
-  <div class = "row p-2" style = "background-color: #34495E">
+  <div class = "row p-2" style = "background-color: rgb(52, 73, 94, .8)">
 
     <div class = "col text-center text-light">
 
@@ -162,7 +170,8 @@
   </div>
 
   <!---Pillars Images & Titles For WEB--->
-  <div class = "row row-cols-2 row-cols-md-3 row-cols-lg-6 text-center p-2 d-none d-md-flex" style= "background-color: #D6DBDF; color: black">
+  <div class = "row row-cols-2 row-cols-md-3 row-cols-lg-6 text-center p-2 d-none d-md-flex" style= "background-color: rgb(214, 219, 223, .8); color: black">
+
 
     <!---Pillar #1--->
     <div class = "col p-3" style="background-color: #85929E">
@@ -222,7 +231,7 @@
   </div>
 
   <!---Pillars Images & Titles For MOBILE--->
-  <div class = "row row-cols-2 row-cols-md-3 p-2 text-center d-md-none" style= "background-color: #D6DBDF; color: black">
+  <div class = "row row-cols-2 row-cols-md-3 p-2 text-center d-md-none" style= "background-color: rgb(214, 219, 223, .8); color: black">
 
     <!---Pillar #1--->
     <div class = "col p-3" style="background-color: #85929E">
@@ -281,7 +290,7 @@
   </div>
 
   <!---Pillars Summary--->
-  <div class = "row p-3" style= "background-color: #D6DBDF">
+  <div class = "row p-3" style= "background-color: rgb(214, 219, 223, .8)">
 
     <div class ="col pt-3 font-weight-bold" style = "color: #283747">
 
@@ -299,7 +308,7 @@
 
   <!---Events Section--->
   <!---Events Title--->
-  <div class = "row p-2" style = "background-color: #34495E">
+  <div class = "row p-2" style = "background-color: rgb(52, 73, 94, .8)">
 
     <div class = "col text-center text-light">
 
@@ -311,7 +320,7 @@
 
   <!---Events Content--->
   <!---Add image carousel with parties, philanthropy, tailgates, etc. --->
-  <div class = "row p-3" style="color: #34495E; background-color: #D6DBDF">
+  <div class = "row p-3" style="color: #34495E; background-color: rgb(214, 219, 223, .8)">
 
     <!---Upcoming Events--->
 
@@ -331,7 +340,7 @@
 
       <a class = "text-reset" href = "Songfest.html">
 
-        <h4>Songfest</h4>
+        <h2>Songfest</h2>
 
       </a>
 
@@ -340,18 +349,18 @@
   </div>
 
   <!---Spacer--->
-  <div class = "row">
+  <div class = "row text-center text-light p-2" style="background-color: rgb(52, 73, 94, .8)">
 
     <div class = "col">
 
-      <p> </p>
+      <h3>Get in touch!</h3>
 
     </div>
 
   </div>
 
   <!---Footer--->
-  <footer class = "row text-center p-3" style = "background-color: #D6DBDF">
+  <footer class = "row text-center p-3" style = "background-color: rgb(214, 219, 223, .8)">
 
     <!---Instagram Link--->
     <div class = "col">
@@ -404,5 +413,6 @@
 <script src="js/jquery.slim.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-</body>
+  <link rel="stylesheet" href="css/CustomElements.css">
+  </body>
 </html>
