@@ -1,22 +1,25 @@
 .background-1 {
-    background-image: url("../img/BackGroundImages/BG1.JPG");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
+    background: url("../img/BackgroundImages/BG1.JPG") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .background-2 {
-    background-image: url("../img/BackGroundImages/BG2.JPG");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
+    background: url("../img/BackgroundImages/BG2.JPG") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .background-3 {
-    background-image: url("../img/BackGroundImages/BG3.JPG");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
+    background: url("../img/BackgroundImages/BG3.JPG") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .background-4 {
@@ -28,29 +31,33 @@
 }
 
 .background-5 {
-    background-image: url("../img/BackGroundImages/BG6.JPG");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
+    background: url("../img/BackgroundImages/BG5.JPG") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .background-6 {
-    background-image: url("../img/BackGroundImages/BG6.JPG");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
+    background: url("../img/BackgroundImages/BG6.JPG") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .background-7 {
-    background-image: url("../img/BackGroundImages/BG7.JPG");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
+    background: url("../img/BackgroundImages/BG7.JPG") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .background-8 {
-    background-image: url("../img/BackGroundImages/BG8.JPG");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
+    background: url("../img/BackgroundImages/BG8.JPG") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
