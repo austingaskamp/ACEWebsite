@@ -6,16 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/CustomElements.css">
   <title>Recruitment</title>
 
 </head>
-<body>
+<body class = "background-4">
 <div class = "container-xl">
 
   <!---All Navigation bar code--->
-  <nav class = "navbar navbar-expand-sm navbar-light">
+  <nav class = "navbar navbar-expand-sm navbar-light" style = "color: #34495E; background-color:  rgb(214, 219, 223, .9)">
 
-    <a class = "navbar-brand text-left" href = "index.html">Aggie Club of Engineers</a>
+    <!---
+    <a class = "navbar-brand text-reset text-left" href = "index.html">Aggie Club of Engineers</a>
+    --->
 
     <button class = "navbar-toggler" type="button" data-toggle = "collapse" data-target="#myTogglerNav"
             aria-controls = "myTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,29 +28,31 @@
     </button>
 
     <!---Section that allows to convert navigation into hamburger menu--->
-    <div class = "collapse navbar-collapse" id = "myTogglerNav">
+    <div class = "collapse navbar-collapse justify-content-center" id = "myTogglerNav">
 
       <!---Section That controls the navigation bar--->
-      <div class = "navbar-nav ml-sm-auto">
+      <div class = "navbar-nav font-weight-bold">
 
         <a class = "nav-item nav-link text-dark active" href = "index.html">Home</a>
         <a class = "nav-item nav-link text-dark active" href = "About.html">About Us</a>
         <a class = "nav-item nav-link text-dark active" href = "Service.html">Service</a>
 
+        <!---
         <div class = "dropdown active">
           <a class = "dopdown-item nav-link dropdown-toggle"
              data-toggle = "dropdown" id = "OurMembersDropdown"
              aria-haspopup = "true" aria-axpanded = "false">Our Members</a>
 
-          <div class = "dropdown-menu" aria-labelledby="OurMembersDropdown">
+            <div class = "dropdown-menu" aria-labelledby="OurMembersDropdown">
 
-            <a class = "dropdown-item" href="Leadership.html">Leadership Team</a>
-            <a class = "dropdown-item" href = "Members.html">Current Members</a>
-            <a class = "dropdown-item" href = "Alumni.html">Alumni</a>
+              <a class = "dropdown-item" href="Leadership.html">Leadership Team</a>
+              <a class = "dropdown-item" href = "Alumni.html">Alumni</a>
 
-          </div>
+            </div>
 
-        </div>
+        </div>--->
+
+        <a class = "nav-item nav-link text-dark active" href = "Recruitment.html">Leadership Team</a>
 
         <a class = "nav-item nav-link text-dark active" href = "Recruitment.html">Recruitment</a>
 
@@ -55,12 +60,12 @@
 
     </div>
 
-  </nav><!---End of Navigation--->
+  </nav>
 
 
   <!---Recruitment Updates Banner--->
   <!---I want to make this a pop up box: TO DO--->
-  <div class = "row text-center text-light" style = "background-color: darkred">
+  <div class = "row text-center text-light" style = "background-color: rgba(214, 48, 49, .9)">
 
     <div class = "col">
 
@@ -70,6 +75,8 @@
         Due to the continued uncertainty created by COVID-19, our recruitment schedule is subject
         to frequent changes. Please check this page for updates regarding event, time, or
         location changes. No matter the changes, however, we are excited about your interest in ACE!
+        If you have any questions, please do not hesitate to contact our
+        <a class = "text-dark" href = "mailto:TamuAceRecruitment@gmail.com;Evankonda@tamu.edu">recruitment chairs.</a>
       </h5>
 
     </div>
@@ -90,7 +97,7 @@
   </div><!---End of spacer--->
 
   <!---Informationals Title--->
-  <div class = "row p-1 text-center text-light" style= "background-color: royalblue" >
+  <div class = "row p-1 text-center text-light" style = "background-color: rgb(52, 73, 94, .9)">
 
     <div class = "col">
 
@@ -102,14 +109,34 @@
 
 
   <!---Informationals Content--->
-  <div class = "row row-cols-1 row-cols-sm-2 text-center">
+  <div class = "row text-center p-3" style = "background-color: rgb(214, 219, 223, .9)">
+
+    <div class = "col">
+
+      <h5>
+
+        All informationals will be held via Zoom. Click
+
+        <a href = "https://urldefense.com/v3/__https://www.google.com/url?q=https:**Atamu.zoom.us*j*97330136117&sa=D&source=calendar&usd=2&usg=AOvVaw0p6NuRY8YDbrr83YBvdnv5__;Ly8vLw!!KwNVnqRv!S5XVTvgUmSWMdQW1OJ9ZXcQu0InDSpOMvnKIm3FlnOl-4zSWA4NpYxEWuCfYY3MIfF8H$">
+          HERE
+        </a>
+
+        to join the meeting.
+
+      </h5>
+
+    </div>
+
+  </div>
+
+  <div class = "row row-cols-1 row-cols-sm-2 text-center" style = "background-color: rgb(214, 219, 223, .9)">
 
     <div class = "col py-3">
 
       <h5><u>August 31st</u></h5>
 
-      <p> 4-5 PM in Rudder 501</p>
-      <p> 5-6 PM in Rudder 501</p>
+      <p>4-5 PM</p>
+      <p>5-6 PM</p>
 
     </div>
 
@@ -117,17 +144,15 @@
 
       <h5><u>September 3rd</u></h5>
 
-      <p> 5-6 PM in Rudder 510</p>
-      <p> 6-7 PM in Rudder 510</p>
+      <p>4-5 PM</p>
+      <p>5-6 PM</p>
 
     </div>
 
-
   </div>
 
-
   <!---Application Title--->
-  <div class = "row p-2 text-center text-light" style = "background-color: royalblue">
+  <div class = "row p-2 text-center text-light" style = "background-color: rgb(52, 73, 94, .9)">
 
     <div class = "col">
 
@@ -142,55 +167,36 @@
   </div>
 
   <!---Application Description--->
-  <div class = "row row-cols-1 row-cols-sm-2">
+  <div class = "row text-center" style = "background-color: rgb(214, 219, 223, .9)">
 
     <!---Application Description--->
     <div class = "col py-3">
 
-      <p>The ACE recruitment team encourages anyone with an interest in the organization to apply. The recruitment
+      <p class = "font-weight-bold">The ACE recruitment team encourages anyone with an interest in the organization to apply. The recruitment
         process is not just an opportunity for us to get to know you, but for you to learn more about ACE and its
         members. We encourage you to apply and to take this opportunity to get involved with ACE. Upon the review of your
         application, the recruitment team will contact you with more information regarding your recruitment status. We look
         forward to reading your application and getting to know you better!</p>
 
-      <p>If you have any questions about the recruitment process or ACE as an organization, please reach out to our
+      <p class = "font-weight-bold">If you have any questions about the recruitment process or ACE as an organization, please reach out to our
       <a href = "mailto:TamuAceRecruitment@gmail.com;Evankonda@tamu.edu">recruitment chairs.</a>
       </p>
 
-    </div>
-
-    <!---Application Image & Link--->
-    <div class = "col py-3" style = "background-color: lightgray">
-
       <h5 class = "text-danger text-center">APPLICATION IS DUE AT 5 PM ON SEPTEMBER 4TH</h5>
 
-      <h6 class = " p-1 text-center">Click
+      <h5 class = " p-1 text-center">CLICK
         <a href="https://urldefense.com/v3/__https://forms.gle/esrPYwf4ViS9wy9L8__;!!KwNVnqRv!VshkCyMXp6E4nU6xa6GDHPCdXqUWZbgHiw3GwhV5yjx9onf8_AorMaljwAiiabW1BEe8$">
-          here
+          HERE
         </a>
-        for application.
-      </h6>
-
-      <p>1. In your own words, please describe what you believe ACE is.</p>
-
-      <p>2. Describe the relationship between the student body and the surrounding community. What obligation do we have,
-        as students, to the community during our time at A&M and why? </p>
-
-      <p>3. Describe your ascent to the top of a company. Were you the ruthless tactician? The nose-to-the-grindstone
-        perfectionist workaholic? The visionary dreamer? The guy that has been around the longest with the most experience?
-        The renegade startup founder? Some combination of the above? Or something different entirely? Tell your story.
-      </p>
-
-      <p>4. What personal characteristics do you have that align most prominently with the type of organization you are
-        looking to be part of?</p>
+        FOR APPLICATION.
+      </h5>
 
     </div>
 
   </div>
 
-
   <!---Recruitment Team Title--->
-  <div class = "row text-light text-center p-2" style="background-color: royalblue">
+  <div class = "row text-light text-center p-2" style = "background-color: rgb(52, 73, 94, .9)">
 
     <div class = "col">
 
@@ -201,7 +207,7 @@
   </div>
 
   <!---Recruitment Team Content--->
-  <div class = "row">
+  <div class = "row" style = "background-color: rgb(214, 219, 223, .9)">
 
     <!---Person's Name--->
     <div class = "col text-center">
@@ -248,5 +254,6 @@
   <script src="js/jquery.slim.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/CustomElements.css">
 </body>
 </html>
