@@ -6,17 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/CustomElements.css">
   <title>Service</title>
 
 
 </head>
-<body>
+<body class = "background-4">
 <div class = "container-xl">
 
   <!---All Navigation bar code--->
-  <nav class = "navbar navbar-expand-sm navbar-light">
+  <nav class = "navbar navbar-expand-sm navbar-light no-gutters" style = "color: #34495E; background-color:  rgb(214, 219, 223, .9)">
 
-    <a class = "navbar-brand text-left" href = "index.html">Aggie Club of Engineers</a>
+    <!---
+    <a class = "navbar-brand text-reset text-left" href = "index.html">Aggie Club of Engineers</a>
+    --->
 
     <button class = "navbar-toggler" type="button" data-toggle = "collapse" data-target="#myTogglerNav"
             aria-controls = "myTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,29 +29,31 @@
     </button>
 
     <!---Section that allows to convert navigation into hamburger menu--->
-    <div class = "collapse navbar-collapse" id = "myTogglerNav">
+    <div class = "collapse navbar-collapse justify-content-center" id = "myTogglerNav">
 
       <!---Section That controls the navigation bar--->
-      <div class = "navbar-nav ml-sm-auto">
+      <div class = "navbar-nav font-weight-bold">
 
         <a class = "nav-item nav-link text-dark active" href = "index.html">Home</a>
         <a class = "nav-item nav-link text-dark active" href = "About.html">About Us</a>
         <a class = "nav-item nav-link text-dark active" href = "Service.html">Service</a>
 
+        <!---
         <div class = "dropdown active">
           <a class = "dopdown-item nav-link dropdown-toggle"
              data-toggle = "dropdown" id = "OurMembersDropdown"
              aria-haspopup = "true" aria-axpanded = "false">Our Members</a>
 
-          <div class = "dropdown-menu" aria-labelledby="OurMembersDropdown">
+            <div class = "dropdown-menu" aria-labelledby="OurMembersDropdown">
 
-            <a class = "dropdown-item" href="Leadership.html">Leadership Team</a>
-            <a class = "dropdown-item" href = "Members.html">Current Members</a>
-            <a class = "dropdown-item" href = "Alumni.html">Alumni</a>
+              <a class = "dropdown-item" href="Leadership.html">Leadership Team</a>
+              <a class = "dropdown-item" href = "Alumni.html">Alumni</a>
 
-          </div>
+            </div>
 
-        </div>
+        </div>--->
+
+        <a class = "nav-item nav-link text-dark active" href = "Leadership.html">Leadership Team</a>
 
         <a class = "nav-item nav-link text-dark active" href = "Recruitment.html">Recruitment</a>
 
@@ -62,7 +67,7 @@
   <!---Our Philanthropy Section--->
 
   <!---Our Philanthropy Title--->
-  <div class = "row p-3 text-center" style = "background-color: royalblue">
+  <div class = "row p-3 text-center" style = "background-color: rgb(65,105,225)">
 
     <div class = "col text-light">
 
@@ -77,7 +82,7 @@
   </div>
 
   <!---Our Philanthropy Description--->
-  <div class = "row p-3 text-center">
+  <div class = "row p-3 text-center" style = "background-color: rgb(214, 219, 223, .9)">
 
     <div class = "col">
 
@@ -102,7 +107,7 @@
   <!---Our Events Section--->
 
   <!---Our Events Title--->
-  <div class ="row p-3" style = "background-color: darkred">
+  <div class ="row p-3" style = "background-color: rgb(139,0,0, .9)">
 
     <div class = "col text-light text-center">
 
@@ -113,7 +118,7 @@
   </div>
 
   <!---Our Events Row 1 --->
-  <div class ="row row-cols-1 row-cols-sm-2 p-3">
+  <div class ="row row-cols-1 row-cols-sm-2 p-3" style = "background-color: rgb(214, 219, 223, .9)">
 
     <!---Cooking for Hope--->
     <div class = "col p-3">
@@ -145,7 +150,7 @@
   </div>
 
   <!---Our Events Row 2--->
-  <div class = "row row-cols-1 row-cols-sm-2 p-3">
+  <div class = "row row-cols-1 row-cols-sm-2 p-3" style = "background-color: rgb(214, 219, 223, .9)">
 
     <!---Boys & Girls Club--->
     <div class = "col p-3">
@@ -162,14 +167,12 @@
 
     </div>
 
-    <!---Street Clean Up--->
+    <!---Street Clean Up
     <div class = "col p-3">
 
       <h3 class = "text-center">Street Clean Up</h3>
 
-      <!---NEED MORE INFO--->
-
-    </div>
+    </div>--->
 
   </div>
 
@@ -179,5 +182,6 @@
   <script src="js/jquery.slim.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/CustomElements.css">
 </body>
 </html>

@@ -6,15 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/CustomElements.css">
   <title>Leadership</title>
 </head>
-<body>
+<body class = "background-5">
 
 <div class = "container-xl">
-  <!---All Navigation bar code--->
-  <nav class = "navbar navbar-expand-sm navbar-light">
 
-    <a class = "navbar-brand text-left" href = "index.html">Aggie Club of Engineers</a>
+  <!---All Navigation bar code--->
+  <nav class = "navbar navbar-expand-sm navbar-light no-gutters" style = "color: #34495E; background-color:  rgb(214, 219, 223, .9)">
+
+    <!---
+    <a class = "navbar-brand text-reset text-left" href = "index.html">Aggie Club of Engineers</a>
+    --->
 
     <button class = "navbar-toggler" type="button" data-toggle = "collapse" data-target="#myTogglerNav"
             aria-controls = "myTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,29 +28,31 @@
     </button>
 
     <!---Section that allows to convert navigation into hamburger menu--->
-    <div class = "collapse navbar-collapse" id = "myTogglerNav">
+    <div class = "collapse navbar-collapse justify-content-center" id = "myTogglerNav">
 
       <!---Section That controls the navigation bar--->
-      <div class = "navbar-nav ml-sm-auto">
+      <div class = "navbar-nav font-weight-bold">
 
         <a class = "nav-item nav-link text-dark active" href = "index.html">Home</a>
         <a class = "nav-item nav-link text-dark active" href = "About.html">About Us</a>
         <a class = "nav-item nav-link text-dark active" href = "Service.html">Service</a>
 
+        <!---
         <div class = "dropdown active">
           <a class = "dopdown-item nav-link dropdown-toggle"
              data-toggle = "dropdown" id = "OurMembersDropdown"
              aria-haspopup = "true" aria-axpanded = "false">Our Members</a>
 
-          <div class = "dropdown-menu" aria-labelledby="OurMembersDropdown">
+            <div class = "dropdown-menu" aria-labelledby="OurMembersDropdown">
 
-            <a class = "dropdown-item" href="Leadership.html">Leadership Team</a>
-            <a class = "dropdown-item" href = "Members.html">Current Members</a>
-            <a class = "dropdown-item" href = "Alumni.html">Alumni</a>
+              <a class = "dropdown-item" href="Leadership.html">Leadership Team</a>
+              <a class = "dropdown-item" href = "Alumni.html">Alumni</a>
 
-          </div>
+            </div>
 
-        </div>
+        </div>--->
+
+        <a class = "nav-item nav-link text-dark active" href = "Leadership.html">Leadership Team</a>
 
         <a class = "nav-item nav-link text-dark active" href = "Recruitment.html">Recruitment</a>
 
@@ -61,7 +67,7 @@
   <!---Executive Team Section--->
 
   <!---Executive Team Title--->
-  <div class = "row p-1 text-light text-center" style = "background-color: royalblue">
+  <div class = "row p-1 text-light text-center" style = "background-color: rgb(65,105,225)">
 
     <div class = "col">
 
@@ -72,18 +78,16 @@
   </div>
 
   <!---Executive Team Content--->
-  <div class = "row row-cols-2 row-cols-md-3 p-1">
+  <div class = "row row-cols-2 row-cols-md-3" style = "background-color: rgb(214, 219, 223, .9)">
 
     <!---President--->
     <div class = "col text-center p-1 align-self-auto">
 
       <a href = "mailto:TamuAcePresident@gmail.com">
-        <h5>President</h5>
+
+        <img class = "img-fluid" src="img/OfficerImages/Website/Brennan.JPG" height="1673" width="1213"/>
+
       </a>
-
-      <img class = "img-fluid" src="img/Officer%20Images/Head%20Shots/Brennan_Passon.JPG" height="470" width="517"/>
-
-      <p>Brennan Passon</p>
 
     </div>
 
@@ -92,14 +96,8 @@
     <div class = "col text-center p-1 align-self-auto">
 
       <a href = "mailto:AceExternalVP@gmail.com">
-
-        <h5>External VP</h5>
-
+        <img class = "img-fluid" src="img/OfficerImages/Website/Moses.JPG" height="1269" width="924"/>
       </a>
-
-      <img class = "img-fluid" src="img/Officer%20Images/Head%20Shots/Moses_Monty.jpg" height="470" width="517"/>
-
-      <p>Moses Monty</p>
 
     </div>
 
@@ -107,12 +105,10 @@
     <div class = "col text-center p-1">
 
       <a href = "mailto:AceIVP@gmail.com">
-        <h5>Internal VP</h5>
+
+        <img class = "img-fluid" src="img/OfficerImages/Website/Sumedh.JPG" height="1269" width="923"/>
+
       </a>
-
-      <img src="img/BlankPerson.png" height="200" width="200"/>
-
-      <p>Sumedh Tadimeti</p>
 
     </div>
 
@@ -121,13 +117,9 @@
 
       <a href = "mailto:AceTreasurer12@gmail.com">
 
-        <h4>Treasurer</h4>
+        <img class = "img-fluid" src="img/OfficerImages/Website/Caden.JPG" height="1271" width="924"/>
 
       </a>
-
-      <img class = "img-fluid" src="img/Officer%20Images/Head%20Shots/Caden_M.JPG" height="1491" width="1520"/>
-
-      <p>Caden Mcmullen</p>
 
     </div>
 
@@ -137,13 +129,11 @@
 
       <a href = "mailto:Ace.Secretary.Tamu@gmail.com">
 
-        <h5>Secretary</h5>
+
+        <img class = "img-fluid" src="img/OfficerImages/Website/Bryce.JPG" height="1270" width="922"/>
 
       </a>
 
-      <img class = "img-fluid" src="img/Officer%20Images/Head%20Shots/Bryce_Arvin.jpg" height="2791" width="3049"/>
-
-      <p>Bryce Arvin</p>
 
     </div>
 
@@ -152,13 +142,10 @@
 
       <a href = "mailto:MalAggieClubofEngineers@gmail.com">
 
-        <h5>Member at Large</h5>
+
+        <img class = "img-fluid" src="img/OfficerImages/Website/Alex.JPG" height="1268" width="924"/>
 
       </a>
-
-      <img class = "img-fluid" src="img/Officer%20Images/Head%20Shots/Alex_Huck.jpg" height="493" width="517"/>
-
-      <p>Alex Huck</p>
 
     </div>
 
@@ -166,7 +153,7 @@
 
   <!---External Cabinet--->
   <!---External Title--->
-  <div class = "row p-1 text-light text-center" style = "background-color: royalblue">
+  <div class = "row p-1 text-light text-center" style = "background-color: rgb(65,105,225)"">
 
     <div class = "col">
 
@@ -177,110 +164,79 @@
   </div>
 
   <!---External Content--->
-  <div class = "row row-cols-2 row-cols-md-4 p-1">
+  <div class = "row row-cols-2 row-cols-md-4" style = "background-color: rgb(214, 219, 223, .9)">
 
     <!---Alumni--->
-    <div class = "col text-center">
+    <div class = "col text-center p-1 align-self-auto">
 
       <a href = "mailto:jmturner@tamu.edu">
 
-        <h4>Alumni</h4>
 
-      </a>
+        <img class = "img-fluid" src="img/OfficerImages/Website/Marshall.JPG" height="1268" width="923"/></a>
 
-      <img class = "img-fluid" src="img/Officer%20Images/Head%20Shots/Marshal_Turner.jpg" height="300" width="200"/>
-
-      <p>Marshall Turner</p>
 
     </div>
 
     <!---Corporate--->
-    <div class = "col text-center">
+    <div class = "col text-center p-1 align-self-auto">
 
       <a href = "mailto:johnpaulhaddad99@gmail.com">
 
-        <h4>Corporate</h4>
 
-      </a>
-
-      <img src="img/BlankPerson.png" height="200" width="200"/>
-
-      <p>JP Haddad</p>
+        <img class = "img-fluid" src="img/OfficerImages/Website/JP.JPG" height="1269" width="923"/></a>
 
     </div>
 
     <!---PR--->
-    <div class = "col text-center">
+    <div class = "col text-center p-1 align-self-auto">
 
       <a href = "mailto:acetamuprchair@gmail.com">
 
-        <h4>Public Relations</h4>
 
-      </a>
-
-      <img src="img/BlankPerson.png" height="200" width="200"/>
-
-      <p>Ben Harrison</p>
+        <img class = "img-fluid" src="img/OfficerImages/Website/Ben.JPG" height="1267" width="922"/></a>
 
     </div>
 
     <!---Social--->
-    <div class = "col text-center">
+    <div class = "col text-center p-1 align-self-auto">
 
       <a href = "mailto:Val.robichaux@gmail.com">
 
-        <h4>Social</h4>
 
-      </a>
-
-      <img class = "img-fluid" src="img/Officer%20Images/Head%20Shots/Val_R.jpeg" height="500" width="504"/>
-
-      <p>Val Robichaux</p>
+        <img class = "img-fluid" src="img/OfficerImages/Website/Val.JPG" height="1269" width="921"/></a>
 
     </div>
 
     <!---Songfest--->
-    <div class = "col text-center">
+    <div class = "col text-center p-1 align-self-auto">
 
       <a href = "mailto:Nicrogstad@gmail.com">
 
-        <h4>Songfest</h4>
 
-      </a>
-
-      <img src="img/BlankPerson.png" height="200" width="200"/>
-
-      <p>Nic Rogstad</p>
+        <img class = "img-fluid" src="img/OfficerImages/Website/Nic.JPG" height="1270" width="921"/></a>
 
     </div>
 
     <!---Special Events--->
-    <div class = "col text-center">
+    <div class = "col text-center p-1 align-self-auto">
 
       <a href = "mailto:SpecialEventsAce@gmail.com">
 
-        <h4>Special Events</h4>
 
-      </a>
+        <img class = "img-fluid" src="img/OfficerImages/Website/Cotton.JPG" height="1268" width="923"/></a>
 
-      <img class = "img-fluid" src = "img/Officer%20Images/Head%20Shots/Cotton_Brown.JPG" height="300" width="200"/>
-
-      <p>Cotton Brown</p>
 
     </div>
 
     <!---Tailgate--->
-    <div class = "col text-center">
+    <div class = "col text-center p-1 align-self-auto">
 
       <a href = "mailto:garrett.hermes@gmail.com">
 
-        <h4>Tailgate</h4>
+
+        <img class = "img-fluid" src="img/OfficerImages/Website/Garrett.JPG" height="1275" width="920"/>
 
       </a>
-
-      <img class = "img-fluid" src="img/Officer%20Images/Head%20Shots/Garrett_Hermes.PNG" height = "300" width = "200"/>
-
-      <p>Garrett Hermes</p>
 
     </div>
 
@@ -288,7 +244,7 @@
 
   <!---Internal Cabinet--->
   <!---Internal Title--->
-  <div class = "row p-1 text-light text-center" style = "background-color: royalblue">
+  <div class = "row p-1 text-light text-center" style = "background-color: rgb(65,105,225)">
 
     <div class = "col">
 
@@ -299,39 +255,33 @@
   </div>
 
   <!---Internal Content--->
-  <div class = "row row-cols-2 row-cols-md-4 p-1">
+  <div class = "row row-cols-2 row-cols-md-4" style = "background-color: rgb(214, 219, 223, .9)">
 
     <!---Recruitment--->
-    <div class = "col text-center">
+    <div class = "col text-center p-1 align-self-auto">
 
       <a href = "mailto:TamuAceRecruitment@gmail.com;Evankonda@tamu.edu">
 
-        <h4>Recruitment</h4>
+
+        <img class = "img-fluid" src="img/OfficerImages/Website/AndrewSinger.JPG" height="1671" width="1218"/>
 
       </a>
-
-      <img class = "img-fluid" src="img/Officer%20Images/Head%20Shots/Andrew_Singer.jpeg" height="483" width="517"/>
-
-      <p>Andrew Singer</p>
 
     </div>
 
     <!---Recruitment--->
-    <div class = "col text-center">
+    <div class = "col text-center p-1 align-self-auto">
 
       <a href = "mailto:TamuAceRecruitment@gmail.com;Evankonda@tamu.edu">
 
-        <h4>Recruitment</h4>
+
+        <img class = "img-fluid" src="img/OfficerImages/Website/Evan.JPG" height="1668" width="1215"/>
 
       </a>
 
-      <img class = "img-fluid" src="img/Officer%20Images/Head%20Shots/Evan_Konda.jpg" height="494" width="517"/>
-
-      <p>Evan Konda</p>
-
     </div>
 
-  <!---Academic--->
+  <!---Academic
     <div class = "col text-center">
 
       <a href = "mailto:aceacademicchair@gmail.com">
@@ -344,9 +294,9 @@
 
       <p>Tony Yanniello</p>
 
-    </div>
+    </div>--->
 
-    <!---Athletic--->
+    <!---Athletic
     <div class = "col text-center">
 
       <a href = "mailto:Austin.damle@gmail.com">
@@ -359,24 +309,21 @@
 
       <p>Austin Damle</p>
 
-    </div>
+    </div>--->
 
     <!---Family--->
-    <div class = "col text-center">
+    <div class = "col text-center p-1 align-self-auto">
 
       <a href = "mailto:acefamilychair@gmail.com">
 
-        <h4>Family</h4>
+
+        <img class = "img-fluid" src="img/OfficerImages/Website/Carter.JPG" height="1671" width="1214"/>
 
       </a>
 
-      <img class = "img-fluid" src="img/Officer%20Images/Head%20Shots/Carter_Rodriguez_1.JPG" height="1785" width="1943"/>
-
-      <p>Carter Rodgriguez</p>
-
     </div>
 
-    <!---Judicial--->
+    <!---Judicial
     <div class = "col text-center">
 
       <a href = "mailto:Ace.Juidicial@gmail.com">
@@ -389,9 +336,9 @@
 
       <p>Clayton Odom</p>
 
-    </div>
+    </div>--->
 
-    <!---Quartermaster--->
+    <!---Quartermaster
     <div class = "col text-center">
 
       <a href = "mailto:Sryanriddle70@gmail.com">
@@ -404,42 +351,32 @@
 
       <p>Ryan Riddle</p>
 
-    </div>
+    </div>--->
 
     <!---Service--->
-    <div class = "col text-center">
+    <div class = "col text-center p-1 align-self-auto">
 
       <a href = "mailto:tamuaceservice@gmail.com">
 
-        <h4>Service</h4>
+
+        <img class = "img-fluid" src="img/OfficerImages/Website/Colby.JPG" height="1673" width="1216"/>
 
       </a>
-
-      <img src="img/BlankPerson.png" height="200" width="200"/>
-
-      <p>Colby Williamson</p>
 
     </div>
 
     <!---Webmaster--->
-    <div class = "col text-center">
-
-      <img class = "img-fluid" src="img/Officer%20Images/Head%20Shots/AustinGaskamp.JPG" height="1280" width="1920"/>
+    <div class = "col text-center p-1 align-self-auto">
 
       <a href = "mailto:acetamuwebmaster@gmail.com">
 
-        <h4>Webmaster</h4>
+        <img class = "img-fluid" src="img/OfficerImages/Website/AustinGaskamp.JPG" height="1670" width="1215"/>
 
       </a>
 
-      <p>Austin Gaskamp</p>
-
-    </div>
-
-
   </div>
 
-  <!---Godfather Title--->
+  <!---Godfather Title
   <div class = "row p-1 text-light text-center" style = "background-color: royalblue">
 
     <div class = "col">
@@ -448,14 +385,17 @@
 
     </div>
 
-  </div>
+  </div>--->
 
   <!---Godfather Content--->
 
 
 </div>
+
+  <!---End internal content--->
   <script src="js/jquery.slim.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/CustomElements.css">
 </body>
 </html>
