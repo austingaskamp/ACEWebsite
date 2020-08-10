@@ -61,3 +61,38 @@
     -o-background-size: cover;
     background-size: cover;
 }
+
+.background-9 {
+    background: url("../img/BackgroundImages/zeec.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.background-10 {
+    background: url("../img/BackgroundImages/Website1.JPG") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.background-11 {
+    background: url("../img/BackgroundImages/Website2.JPG") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.background-12 {
+    background: url("../img/BackgroundImages/Website3.JPG") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
